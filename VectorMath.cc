@@ -221,7 +221,9 @@ vector<vector<double>> operator-(vector<vector<double>> &A, vector<vector<double
 
 } 
 
+// return the identity matrix 
 vector<vector<double>> Identity(int N) {
+
 
 	vector<vector<double>> I(N, vector<double>(N)); 
 
